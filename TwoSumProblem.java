@@ -1,3 +1,4 @@
+import java.util.Arrays;
 import java.util.HashMap;
 
 public class TwoSumProblem {
@@ -22,5 +23,6 @@ public class TwoSumProblem {
         int target = 9;
 
         int[] result = twoSum(nums, target);
-        System.out
+        System.out.println(Arrays.toString(result));
+}
 }
